@@ -1,0 +1,70 @@
+body{
+    background-color: blue;
+}
+header{
+    flex: content;
+    text-align: center;
+    
+    border-radius: 35px;
+    background-image: linear-gradient(to right, blue, yellow);
+    padding: 20px;
+    height: 80px;}
+
+
+img{
+   
+    width: 90px;
+    height: 90px;
+}
+#anchorman{
+    flex:content;
+    align-items: right;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+}
+#weatherIcons{
+    display: block;
+    margin-left: auto;
+}
+.weatherDiv{
+    
+    border-radius: 25px;
+    background: #261aa8;
+    padding: 20px;
+    width: 500px;
+    height: 350px;
+    background-size: 200px;
+    background-position:85% 85%;
+    background-repeat: no-repeat;
+    
+}
+.weatherDiv.img{
+    align-items: right;
+}
+
+.weatherDiv:hover{
+    border-color: aqua;
+    border-width: 40px;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: darkblue;
+}
+#forecastWeather{
+    display: flex;
+    flex: content;
+    margin: auto;
+    justify-content:space-between;
+    flex-direction: row;
+ 
+    width: 100%;
+    
+}
+#todaysWeather{
+ 
+
+}
